@@ -1,0 +1,152 @@
+header h1{
+    float: right;
+    padding-right: 45%;
+    padding-top: 4%
+}
+
+h1{
+    text-align: center;
+}
+
+body{
+    color: black;
+    background-image: url(../artista/img/atras.png);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    background-size: cover;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+main{
+    box-shadow: 0 0 10px goldenrod;
+    width: 1800px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.748);
+}
+
+footer p{
+    text-align: center;
+    width: 100%;
+}
+
+a{
+    color: black;
+}
+
+nav{
+    margin: 20px;
+}
+
+ul li a:hover{
+    background-color: goldenrod;
+}
+
+
+ul li{
+    display: inline;
+    padding: 0 10px;
+}
+
+ul li a{
+    text-decoration: none;
+    background-color: #000;
+    color: #FFF;
+    padding: 6px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px goldenrod;
+}
+
+ol li{
+    color: rgb(61, 100, 216);
+}
+
+section{
+    background-size: contain;
+    font-family: Arial;
+    padding: 20px;
+    margin: 40px;
+    border: goldenrod solid;
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px goldenrod;
+}
+
+div img{
+    box-shadow: 0 0 10px goldenrod;
+    border-radius: 10px;
+    border: 2px solid goldenrod;
+}       
+
+div img:hover{
+    transition: 1s;
+    transform: scale(80%);
+    box-shadow: 0px 0px 15px 15px #423f3f;
+}
+
+aside a:hover{
+    background-color: goldenrod;
+}
+
+
+aside{
+    text-align: center;
+    padding: 0 10px;
+}
+
+aside a{
+    text-decoration: none;
+    background-color: #000;
+    color: #FFF;
+    padding: 6px 10px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 2px goldenrod;
+    margin-top: 30px;
+}
+
+.yankee{
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.clear{
+    clear: both;
+}
+
+.logo{
+    float: left;
+    margin: 2.5% 0% 0% 15%;
+   
+}
+.yankee{
+    margin: 50px;
+}
+.descripcion{
+    border: 1px solid gold;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: goldenrod;
+    color: #FFF;
+    float: left;
+    width: 42%;
+    margin: 100px 0 0 0;
+    font-size: 170%;
+}
+.yankee2{
+    float: right;
+    width: 800px;
+    margin: 40px ;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.dy{
+    width: 800px;
+    height:45px;
+   float: right;
+   margin:9% 20% 1% -7%;
+   padding-right: 20px;
+   text-align: center;
+}
+
